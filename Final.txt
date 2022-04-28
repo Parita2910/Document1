@@ -1,0 +1,214 @@
+EventEmitters are tied to a type of data they emit.
+- True
+
+Promises come natively with Javascript ES6
+- True
+
+When defining a new promise, how many parameters is the function definition expecting?
+- 2
+
+A big advantage to using promises is that they can be done:
+- Asynchronously
+
+Resolved promises run before the next event loop starts
+- True
+
+The javascript event loop is single threaded
+- True
+
+Assuming gameList is an array, what does the following code do?
+this.gameList = Object.assign({}, this.gameList);
+- Clones the gameList array
+
+What do we use in conjunction with an @Output to transmit data to a parent element?
+- EventEmitter
+
+It's impossible to perform commands comparable to the async and await commands without using those keywords
+- False
+
+An @Output in a component adds a custom event to the associated tag of that component.
+- True
+
+In order to use the await command, we need to use it in conjunction with:
+- async
+
+In order to run several async functions at the same time, what function within the Promise object do we need?
+- all
+
+Async functions have nothing to do with promises.
+- False
+
+What code will run last?
+- a setTimeout call
+
+There is no other way to do asynchronous calls in typescript besides with promises.
+- False
+
+Observables use the publisher-subscriber design pattern
+- False
+
+What enables us to use service injection and create only 1 instance of the service when running our application  (select all that apply)?
+- Injectable decorator, Dependency injection
+
+To use Observable and of in our code, what library do we need to include them from?
+- rxjs, rx js
+
+The following code will correctly inject the content service into the component:
+constructor(contentService: ContentService) { }
+- False
+
+To inject our service into a component, we add it as a parameter to which of the following?
+- Constructor
+
+When is it best to start using our service, ensuring it's available?
+- ngOnInit function
+
+Observables transfer data from our services to our components:
+- Asynchronously
+
+When using services, each component will make its own independent instance of the service.
+- False
+
+What have we been using to send and receive data across our services?
+- Observables
+
+Returning an object using the of() function returns an observable.
+- True
+
+
+
+We don't need to use HttpHeaders in our http get requests.
+- True
+
+Observables transfer data from our services to our components:
+- Asynchronously
+
+When we refresh the page, our InMemoryDataService will still contain all the data we added using the an http post command before refreshing.
+- False
+
+What variable type does the createDb method return?
+- Object
+
+There's no way to have the InMemoryDataService simulate server delay on requests
+- False
+
+An http put request returns an observable.
+- True
+
+In order to use http calls in our components, where do we need to include the HttpClientModule?
+- imports array of app.module.ts
+
+What type is returned by the following code?
+return this.http.get<Content>("api/content");
+- Observable wrapper around Content
+
+There is no way to implement the angular-in-memory-web-api to auto generate an id for newly added items to your database.
+- False
+
+An http post request does not return anything
+- False
+
+What is the name of the method that provides the database variable when we're using the angular-in-memory-web-api package?
+- createDb
+
+There is no way to implement the angular-in-memory-web-api to auto generate an id for newly added items to your database.
+- False
+
+What items does a material theme require you to set the colour of?
+- Primary, Accent, Warning
+
+Material allows you to create a custom light or custom dark theme
+- True
+
+If we use a prebuilt theme, where is the reference to stylesheet of that theme added?
+- angular.json
+
+Which of the following are valid components in material?
+- Tabs, List, Grid List, Tree
+
+To use a material dialog in your component, you must add it as a service
+- True
+
+How many fonts get added to our index.html when we add angular material?
+- 2
+
+Google Material design is a:
+- Design language
+
+How many colours must we specify when creating our own custom theme?
+- 3
+
+Typography styles in angular material can help us with our website accessibility.
+- True
+
+Added angular material also adds styles that clear the body tag of its margins.
+- True
+
+It's possible to use angular material without animations being applied to any of the components.
+- True
+
+How many mat colour options does a material theme have?
+- 19, nineteen
+
+In order to make our a tag links work with our single page application routing, what do we need to change?
+- Replace href with routerLink
+
+When defining our routing rules, the order that we define them in does not matter
+- False
+
+In order to setup routing, we must initialize a router module in the app module.
+- True
+
+There is no way to send parameter data to components via the router module.
+- False
+
+The only kinds of router rules available involve a path and a component dedicated to that path
+- False
+
+The path for handling the home page in the routing rules is an empty string (i.e. "")
+- True
+
+By using routing, we're able to create what kind of applications?
+- Single page
+
+In our routing path definitions, what pattern do we use to capture any possible page the user might visit?
+- **, '**', "**"
+
+By using routing, we can eliminate the need for page reloads when navigation your application.
+- True
+
+Which of the following services do we use to acquire route parameters in our components?
+- ActivatedRoute
+
+There is no way to send parameter data to components via the router module.
+- False
+
+In order for our angular application to be a PWA, what specifically do we need to add to our project?
+- Service worker
+
+PWA's enable us to have offline versions of our application available.
+- True
+
+PWA stands for
+- Progressive Web App
+
+What option do we add to our http-server command in order to disable caching on the server?
+- c-1
+
+What file controls the name, theme colour and icons that your PWA will present when added to a device?
+- manifest.webmanifest
+
+To run our PWA locally, we still use the "ng serve" command.
+- False
+
+Our PWA is powerful enough to be able to run on a production server over either HTTP or HTTPS, if we choose.
+- False
+
+What file changed or added to our project, before building, tells the PWA where to find the theme colors and name of the app?
+- manifest.webmanifest
+
+By adding service worker to our project, we can now control asset caching from the front end of the application.
+- True
+
+We are able to specify specific files that we want cached by our service worker, including external files.
+- True
